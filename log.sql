@@ -8,6 +8,8 @@
 
 ----------------------------------------------------------------------------------------------------------
 
+-- To download the fiftyville.db → wget https://cdn.cs50.net/2020/fall/psets/7/fiftyville/fiftyville.zip
+
 SELECT description FROM crime_scene_reports WHERE month = 7 AND day = 28 AND street = "Chamberlin Street";
 -- Theft of the CS50 duck took place at 10:15am at the Chamberlin Street courthouse. Interviews were conducted today with three witnesses who were present at the time — each of their interview transcripts mentions the courthouse.
 
